@@ -1,4 +1,4 @@
-package com.mufumbo.helper;
+package com.mufumbo.android.helper;
 
 import java.lang.ref.SoftReference;
 import java.util.ArrayList;
@@ -25,6 +25,11 @@ import android.widget.ListView;
  * First consumes the <b>last</b> images added to the queue and kill the queue tail.
  * It's useful when you are displaying thumbnails on a {@link ListView} and you don't want to loose time
  * downloading the old elements of the list. Instead, you want to show the current elements that were last shown.
+ * 
+ * Example of usage: 
+ * Create a {@link ListView} ViewHolder that implements {@link ThumbEvent} and then 
+ * when populating the ViewHolder:
+ * thumbLoaderInstance.pushEvent(viewHolderInstanceThatImplementsThumbEvent, true);  
  * 
  * @author mufumbo
  */

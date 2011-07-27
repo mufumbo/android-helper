@@ -1,4 +1,4 @@
-package com.mufumbo.helper;
+package com.mufumbo.android.helper;
 
 import android.util.Log;
 

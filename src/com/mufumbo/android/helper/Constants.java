@@ -1,4 +1,4 @@
-package com.mufumbo.helper;
+package com.mufumbo.android.helper;
 
 public class Constants {
 	//public static final String GOOGLE_ANALYTICS_ID = "UA-23767917-2";

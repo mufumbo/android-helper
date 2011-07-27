@@ -1,4 +1,4 @@
-package com.mufumbo.helper;
+package com.mufumbo.android.helper;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
