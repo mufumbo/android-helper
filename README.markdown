@@ -1,4 +1,5 @@
-= Android Helper =
+Android Helper
+=========================================================
 
 These are useful classes that I use across some projects.
 
